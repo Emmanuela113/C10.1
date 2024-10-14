@@ -1,0 +1,23 @@
+a:hover{
+    color:rgb(173, 108, 108)
+}
+/*Child Selector*/
+ul>li{
+    font-weight: bold;
+}
+h1+p{
+    background-color: brown;
+}
+ul li:nth-child(3){
+    background-color: brown;
+}
+ul li::before{
+    content:"🚀";
+}
+ul li::after{
+    content:"🌌";
+}
+p::first-letter{
+    font-size: 70px;
+    color: indianred;
+}
